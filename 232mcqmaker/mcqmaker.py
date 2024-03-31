@@ -146,7 +146,7 @@ def main():
             value_list = list(index.values())
             for i in range(7):
                 #choose random index 
-                index = random.randint(0, len(key_list))
+                index = random.randint(0, len(key_list) - 1)
                 #write the question prompt down
                 file.write('\n' + key_list[index] + "\n")
                 #writing the questions down
